@@ -1,9 +1,13 @@
-import React from 'react'
-import {NavLink} from 'react'
-import '../styles/Navbar.css'
+import React from 'react';
+import { NavLink } from 'react';
+import '../styles/Navbar.css';
 
-export default Navbar = () => {
+const Navbar = () => {
   return (
+    <div className='navbar'>
+      <div className='logo'>HI</div>
+    </div>
+  );
+};
 
-  )
-}
+export default Navbar;
