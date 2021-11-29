@@ -1,11 +1,11 @@
 import React from 'react';
-import { NavLink } from 'react';
 import '../styles/Navbar.css';
 
 const Navbar = () => {
   return (
     <div className='navbar'>
-      <div className='logo'>HI</div>
+      <a href='#about'>About</a>
+      <a href='#projects'>Projects</a>
     </div>
   );
 };
