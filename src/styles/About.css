@@ -1,0 +1,80 @@
+h1 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+#about {
+  height: 800px;
+  border: 1px solid black;
+}
+
+.imageWrapper {
+  text-align: center;
+}
+
+.knowContainer {
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+}
+
+.knowBanner {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: knowBannerMove 10s linear infinite;
+}
+
+.knowBanner div {
+  margin: 0 0.5em;
+  font-size: 30px;
+}
+
+@keyframes knowBannerMove {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-50%, 0);
+  }
+}
+
+.learnContainer {
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+}
+
+.learnBanner {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: learnBannerMove 10s linear infinite;
+}
+
+.learnBanner div {
+  margin: 0 0.5em;
+  font-size: 30px;
+}
+
+@keyframes learnBannerMove {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(50%, 0);
+  }
+}
+
+.portrait {
+  width: 200px;
+  border-radius: 50px 0px;
+  text-align: center;
+}
