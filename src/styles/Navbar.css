@@ -1,13 +1,14 @@
-.navbar {
+#navbar {
   overflow: hidden;
   background-color: mediumblue;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   width: 100%;
+  z-index: 2;
 }
 
-.navbar a {
+#navbar a {
   float: left;
   display: block;
   color: #f2f2f2;
