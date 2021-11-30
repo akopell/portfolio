@@ -19,20 +19,28 @@ h4 {
   height: 150px;
   position: relative;
   overflow: hidden;
+  background-color: lightgrey;
+  border-radius: 10px;
 }
 
 .knowBanner {
+  height: 100%;
   position: absolute;
   top: 0px;
   left: 0px;
   overflow: hidden;
   white-space: nowrap;
-  animation: knowBannerMove 10s linear infinite;
+  animation: knowBannerMove 30s linear infinite;
+  display: flex;
+  align-items: center;
 }
 
-.knowBanner div {
+.knowBanner img {
   margin: 0 0.5em;
-  font-size: 30px;
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+  display: inline;
 }
 
 @keyframes knowBannerMove {
@@ -48,20 +56,26 @@ h4 {
   height: 150px;
   position: relative;
   overflow: hidden;
+  background-color: lightgrey;
 }
 
 .learnBanner {
   position: absolute;
   top: 0px;
-  left: 0px;
+  right: 0px;
   overflow: hidden;
   white-space: nowrap;
-  animation: learnBannerMove 10s linear infinite;
+  animation: learnBannerMove 20s linear infinite;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
-.learnBanner div {
-  margin: 0 0.5em;
-  font-size: 30px;
+.learnBanner img {
+  margin: 0 1.5em;
+  width: 200px;
+  object-fit: contain;
+  height: 100px;
 }
 
 @keyframes learnBannerMove {
@@ -77,4 +91,24 @@ h4 {
   width: 200px;
   border-radius: 50px 0px;
   text-align: center;
+}
+
+.leftFade {
+  height: 100%;
+  width: 4vw;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background: linear-gradient(to right, lightgray, rgba(255, 255, 255, 0));
+  z-index: 1;
+}
+
+.rightFade {
+  height: 100%;
+  width: 4vw;
+  right: 0;
+  top: 0;
+  position: absolute;
+  background: linear-gradient(to left, lightgray, rgba(255, 255, 255, 0));
+  z-index: 1;
 }

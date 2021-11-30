@@ -31,7 +31,8 @@ const About = () => {
         <h4>What I Know</h4>
       </Row>
       <Container className='knowContainer'>
-        <Row className='knowBanner'>
+        <div className='leftFade' />
+        <div className='knowBanner'>
           <Image alt='html5' src='/images/html5.png' />
           <Image alt='css3' src='/images/css3.png' />
           <Image alt='javascript' src='/images/javascript.png' />
@@ -42,20 +43,39 @@ const About = () => {
           <Image alt='github' src='/images/github.png' />
           <Image alt='sequelize' src='/images/sequelize.png' />
           <Image alt='postgresql' src='/images/postgresql.png' />
-        </Row>
+          <Image alt='html5' src='/images/html5.png' />
+          <Image alt='css3' src='/images/css3.png' />
+          <Image alt='javascript' src='/images/javascript.png' />
+          <Image alt='node' src='/images/node.png' />
+          <Image alt='react' src='/images/react.png' />
+          <Image alt='redux' src='/images/redux.png' />
+          <Image alt='git' src='/images/git.png' />
+          <Image alt='github' src='/images/github.png' />
+          <Image alt='sequelize' src='/images/sequelize.png' />
+          <Image alt='postgresql' src='/images/postgresql.png' />
+        </div>
+        <div className='rightFade' />
       </Container>
       <Row>
         <h4>What I Am Learning</h4>
       </Row>
       <Container className='learnContainer'>
-        <Row className='learnBanner'>
+        <div className='leftFade' />
+        <div className='learnBanner'>
           <Image alt='aws' src='/images/aws.png' />
           <Image alt='expo' src='/images/expo.png' />
           <Image alt='unity' src='/images/unity.png' />
           <Image alt='wordpress' src='/images/wordpress.png' />
           <Image alt='webpack' src='/images/webpack.png' />
           <Image alt='travisci' src='/images/travisci.png' />
-        </Row>
+          <Image alt='aws' src='/images/aws.png' />
+          <Image alt='expo' src='/images/expo.png' />
+          <Image alt='unity' src='/images/unity.png' />
+          <Image alt='wordpress' src='/images/wordpress.png' />
+          <Image alt='webpack' src='/images/webpack.png' />
+          <Image alt='travisci' src='/images/travisci.png' />
+        </div>
+        <div className='rightFade' />
       </Container>
     </Container>
   );
