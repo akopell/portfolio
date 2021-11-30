@@ -3,6 +3,7 @@ import '../styles/About.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image';
 
 const About = () => {
   return (
@@ -12,7 +13,11 @@ const About = () => {
       </Row>
       <Row>
         <Col className='imageWrapper' lg={4} sm={12}>
-          <img className='portrait' alt='Adam portrait' src='/Adam.PNG' />
+          <img
+            className='portrait'
+            alt='Adam portrait'
+            src='/images/Adam.PNG'
+          />
         </Col>
         <Col lg={8} sm={12}>
           I am a Fullstack Software Engineer based in Los Angeles, CA with the
@@ -27,9 +32,16 @@ const About = () => {
       </Row>
       <Container className='knowContainer'>
         <Row className='knowBanner'>
-          <Col>HHHHHHH</Col>
-          <Col>JJJJJJ</Col>
-          <Col>IIIIII</Col>
+          <Image alt='html5' src='/images/html5.png' />
+          <Image alt='css3' src='/images/css3.png' />
+          <Image alt='javascript' src='/images/javascript.png' />
+          <Image alt='node' src='/images/node.png' />
+          <Image alt='react' src='/images/react.png' />
+          <Image alt='redux' src='/images/redux.png' />
+          <Image alt='git' src='/images/git.png' />
+          <Image alt='github' src='/images/github.png' />
+          <Image alt='sequelize' src='/images/sequelize.png' />
+          <Image alt='postgresql' src='/images/postgresql.png' />
         </Row>
       </Container>
       <Row>
@@ -37,9 +49,12 @@ const About = () => {
       </Row>
       <Container className='learnContainer'>
         <Row className='learnBanner'>
-          <Col>HHHHHHH</Col>
-          <Col>JJJJJJ</Col>
-          <Col>IIIIII</Col>
+          <Image alt='aws' src='/images/aws.png' />
+          <Image alt='expo' src='/images/expo.png' />
+          <Image alt='unity' src='/images/unity.png' />
+          <Image alt='wordpress' src='/images/wordpress.png' />
+          <Image alt='webpack' src='/images/webpack.png' />
+          <Image alt='travisci' src='/images/travisci.png' />
         </Row>
       </Container>
     </Container>
