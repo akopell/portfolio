@@ -52,6 +52,18 @@ h1 {
   transform-style: preserve-3d;
   transform-origin: center;
   transform: rotateY(calc(var(--char-index) * 12deg)) translateZ(250px);
+  text-shadow: 500px 150px 0 rgba(255, 255, 255, 0.5),
+    300px 150px 10px rgba(255, 255, 255, 0.5),
+    150px 600px 0 rgba(255, 255, 255, 0.5),
+    600px 50px 0 rgba(255, 255, 255, 0.5),
+    400px 350px 0 rgba(255, 255, 255, 0.5),
+    200px 500px 0 rgba(255, 255, 255, 0.5),
+    500px -150px 0 rgba(255, 255, 255, 0.5),
+    300px -150px 10px rgba(255, 255, 255, 0.5),
+    150px -600px 0 rgba(255, 255, 255, 0.5),
+    600px -50px 0 rgba(255, 255, 255, 0.5),
+    400px -350px 0 rgba(255, 255, 255, 0.5),
+    200px -500px 0 rgba(255, 255, 255, 0.5);
 }
 
 @media screen and (max-width: 600px) {
@@ -65,4 +77,8 @@ h1 {
   width: 100%;
   height: 100%;
   background: black;
+}
+
+#dash {
+  color: white;
 }
