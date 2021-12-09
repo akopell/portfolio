@@ -70,6 +70,18 @@ h1 {
   .landingSpinner .char {
     font-size: 1.5em;
     transform: rotateY(calc(var(--char-index) * 12deg)) translateZ(130px);
+    text-shadow: 250px 75px 0 rgba(255, 255, 255, 0.5),
+      150px 75px 10px rgba(255, 255, 255, 0.5),
+      75px 300px 0 rgba(255, 255, 255, 0.5),
+      300px 25px 0 rgba(255, 255, 255, 0.5),
+      200px 175px 0 rgba(255, 255, 255, 0.5),
+      200px 250px 0 rgba(255, 255, 255, 0.5),
+      250px -75px 0 rgba(255, 255, 255, 0.5),
+      150px -75px 10px rgba(255, 255, 255, 0.5),
+      75px -300px 0 rgba(255, 255, 255, 0.5),
+      300px -25px 0 rgba(255, 255, 255, 0.5),
+      200px -175px 0 rgba(255, 255, 255, 0.5),
+      200px -250px 0 rgba(255, 255, 255, 0.5);
   }
 }
 

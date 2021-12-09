@@ -1,5 +1,4 @@
 import './styles/App.css';
-import Routes from './Routes';
 import { Navbar, Landing, About, Projects } from './components';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
