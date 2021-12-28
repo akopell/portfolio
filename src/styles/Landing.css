@@ -39,7 +39,7 @@ h1 {
 }
 
 .landingSpinner .char {
-  font-family: Courier;
+  font-family: Courier, monospace;
   position: absolute;
   top: 0;
   left: 0;
