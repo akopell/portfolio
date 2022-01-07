@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 
 const Contact = () => {
   return (
-    <Container>
+    <Container className='section'>
       <h1>Contact Me</h1>
     </Container>
   );
