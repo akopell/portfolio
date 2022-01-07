@@ -1,4 +1,19 @@
 #projects {
-  height: 800px;
+  position: relative;
+}
+.imageContainer {
+  overflow: hidden;
+}
+.projectImage {
+  width: 100%;
+  cursor: pointer;
+  transition: 0.3s;
   border: 1px solid black;
+}
+.modalImage {
+  width: 100%;
+}
+.projectImage:hover {
+  transform: scale(1.1);
+  opacity: 0.6;
 }
